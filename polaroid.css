@@ -1,0 +1,211 @@
+div.polaroid {
+    width: 5em;
+    height: 6em;
+	background: #faebd7;
+	padding: 0.25em;
+	box-sizing:border-box;
+	-webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.4);
+	box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.4);
+	border-radius: 2px;
+	transform-origin: top center;
+	animation: sway 5s infinite;
+    animation: sway2 5s infinite;
+}
+
+div.polaroid:hover {
+	outline:rgba(220, 58, 45, 0.7) 2px solid;
+}
+
+
+@keyframes sway {
+33% {transform: rotate(5deg);
+	transform-origin: top center;}
+66% {transform: rotate(-15deg);
+	transform-origin: top center;}
+}
+@keyframes sway2 {
+30% {transform: rotate(3deg);
+	transform-origin: top center;}
+60% {transform: rotate(-3deg);
+	transform-origin: top center;}
+}
+
+div.polaroid-image {
+	background-position: center;
+	background-size: 150%;
+	background-repeat: no-repeat;
+	width: 4.5em;
+	height: 4.5em;
+	opacity: 0.85;
+}
+
+p.polaroid-text {
+	font-size: 0.6em;
+	margin-top: 2.5px;
+	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+	opacity: 0.7;
+}
+
+img.polaroid-pin {
+	position: absolute;
+	/* top: 193px;
+    left: 254px; */
+	z-index: 1;	
+}
+
+/* Oregon */
+
+div.oregon {
+	position: absolute;
+	top: 245px;
+	left: 425px;
+}
+
+img.oregon-pin {
+	top: 229px;
+    left: 452px;
+}
+
+div.oregon-img {
+	background-image: url(images/oregon.jpg);
+}
+
+/* Texas */
+
+div.texas {
+	position: absolute;
+	top: 460px;
+	left: 675px;
+}
+
+img.texas-pin {
+	top: 444px;
+    left: 702px;
+}
+
+div.texas-img {
+	background-image:url(images/texas.jpg);
+}
+
+/* Boston */
+
+div.boston {
+	position: absolute;
+	top: 340px;
+	left: 940px;
+}
+
+img.boston-pin {
+	top: 325px;
+    left: 966px;
+}
+
+div.boston-img {
+	background-image:url(images/boston.jpg);
+}
+
+/* Montana */
+
+div.montana {
+	position: absolute;
+	top: 220px;
+	left: 590px;
+}
+
+img.montana-pin {
+	top: 205px;
+    left: 617px;
+}
+
+div.montana-img {
+	background-image:url(images/montana.jpg);
+}
+
+/* Nebraska */
+
+div.nebraska {
+	position: absolute;
+	top: 345px;
+    left: 680px;
+}
+
+img.nebraska-pin {
+	top: 329px;
+    left: 707px;
+}
+
+div.nebraska-img {
+	background-image:url(images/nebraska.jpg);
+}
+
+/* Arizona */
+
+div.arizona {
+	position: absolute;
+	top: 405px;
+    left: 510px;
+}
+
+img.arizona-pin {
+	top: 389px;
+    left: 538px;
+}
+
+div.arizona-img {
+	background-image:url(images/arizona.jpg);
+}
+
+/* Maine */
+
+div.maine {
+	position: absolute;
+	top: 217px;
+    left: 989px;
+}
+
+img.maine-pin {
+	top: 199px;
+    left: 1016px;
+}
+
+div.maine-img {
+	background-image:url(images/maine.jpg);
+}
+
+/* Wisconsin */
+
+div.wisconsin {
+	position: absolute;
+	top: 268px;
+    left: 784px;
+}
+
+img.wisconsin-pin {
+	top: 255px;
+    left: 809px;
+}
+
+div.wisconsin-img {
+	background-image:url(images/wisconsin.jpg);
+}
+
+/* alabama */
+
+div.alabama {
+	position: absolute;
+	top: 435px;
+    left: 820px;
+}
+
+img.alabama-pin {
+	top: 419px;
+    left: 847px;
+}
+
+div.alabama-img {
+	background-image:url(images/alabama.jpg);
+}
+
+

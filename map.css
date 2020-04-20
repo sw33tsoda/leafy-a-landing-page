@@ -1,0 +1,9 @@
+section#map {
+    margin-left:227.900px;
+    width: 1025px;
+    height: 500px;
+    background-image: url(images/map.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 624px;
+}
